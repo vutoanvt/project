@@ -1,7 +1,9 @@
 body{
   margin-top: 90px;
-  background: url('../img/img1.jpeg')no-repeat 0 -200px;
-  background-attachment: fixed;
+  background: url('../img/img1.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 .navbar{
   background: #f4f4f4;
