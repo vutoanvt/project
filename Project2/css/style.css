@@ -15,11 +15,13 @@ body{
   color:#fff;
   font-size: 20px;
 }
+
 .panel-title{
   font-size: 18px;
 }
 .panel-title span{
   color:#8b7d6b;
+
 }
 .checkbox{
   color:#000;

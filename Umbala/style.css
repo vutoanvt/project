@@ -1,0 +1,179 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"ProximaNova-Light", sans-serif;
+	font-size: 2em;
+	background-color: #ECF0F1;
+	color:gray;
+	font-weight: 300;
+}
+
+/*thanh bar*/
+.nav{
+	height: 70px;
+	font-size: 0.9em;
+	text-align: center;
+	padding-top: 40px;
+	line-height: 1.2;
+}
+
+/*
+.nav2{
+	height: 130px;
+	background-color: pink;
+
+}
+
+.nav2 .left{
+
+}
+.nav2 .right {
+	height:130px;
+	line-height: 130px
+	width:50%;
+}
+
+.nav2 .right ul li{
+	float:right;
+	display: block;
+	list-style: none;
+	font-size: 50px;
+	padding:37px 40px;
+	border-right: 1px solid gray;
+}
+*/
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 140px;
+    background-color: #ee4054;
+}
+
+.flex-item {
+    
+    display: flex;
+    width: 50%;
+    height: 140px;
+    
+}
+.flex-item0 {
+    color:#fff;
+    width: 30%;
+    height: 140px;
+}
+.flex-item0 i{
+	font-size: 1.4em;
+	padding:40px 20px 20px 50px;
+}
+.flex-item00 {
+    width: 70%;
+    height: 140px;
+}
+.flex-item00 img{
+	
+	width: 80%;
+}
+.flex-item1 {
+    width: 25%;
+    height: 140px;
+    border-right: 1px solid #de142b;
+}
+.flex-item1:first-child {
+	border:none;
+}
+.flex-item1 i{
+	color:#fff;
+	font-size: 1.8em;
+	padding:40px 20px 0 40px;
+}
+
+/*giao dien*/
+.flex{
+	display: block;
+	height: 100%;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.flex2 {
+    display: -webkit-flex;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.item1 {
+    width: 50%;
+    margin-right:5px;
+}
+.item2 {  
+    width: 50%;
+    margin-left: 5px;
+}
+
+.flex3{
+	display: block;
+	height: 100%;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.space{
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.title{
+	padding:20px 0 30px 10px;
+	border-bottom: 1px solid gray;
+}
+.title1{
+	
+	padding: 0 0 20px 10px;
+	border-bottom: 1px solid gray;
+}
+.nd{
+	
+	padding:20px 0 20px 10px;
+}
+
+.footer-flex{
+	display: flex;
+	height: 180px;
+	padding-top: 20px;
+}
+.footer-flex1{
+	width: 50%;
+	padding-left: 60px;
+
+}
+.footer-flex2{
+	width: 50%;
+}
+
+.end{
+	display: flex;
+	background-color: #5a5757;
+	color:#fff;
+	line-height: 1.2;
+}
+.end1{
+	flex:2;
+	font-size: 3em;
+	padding:20px 0px 20px 40px;
+
+}
+.end2{
+	flex:1;
+	padding-top: 20px;
+}
+#footer{
+	font-size: 10px;
+	background-color: #000;
+	text-align: center;
+	color:#fff;
+	padding:15px;
+}
